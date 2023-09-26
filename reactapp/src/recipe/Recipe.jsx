@@ -4,7 +4,7 @@ import RecipeDetail from "./RecipeDetail";
 import Collection from "./Collection";
 import "./Recipe.css";
 
-const App = () => {
+const Recipe = () => {
   const [selectedRecipe, setSelectedRecipe] = useState(null);
   const [savedRecipes, setSavedRecipes] = useState([]);
 
@@ -89,4 +89,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default Recipe;
